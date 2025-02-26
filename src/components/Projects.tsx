@@ -4,18 +4,6 @@ import { ChevronLeft, ChevronRight } from 'lucide-react';
 const projects = [
   {
     id: 1,
-    title: 'Edifício Comercial Aurora',
-    description: 'Torre comercial de 20 andares com certificação LEED',
-    imageUrl: 'https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
-    testimonial: {
-      name: 'Carlos Silva',
-      role: 'Diretor Executivo',
-      content: 'A Nova Era superou todas as nossas expectativas. Entrega pontual e qualidade excepcional.',
-    },
-    equipment: ['Gruas Torre', 'Escavadeiras', 'Guindastes'],
-  },
-  {
-    id: 2,
     title: 'Residencial Villa Verde',
     description: 'Condomínio sustentável com 120 unidades',
     imageUrl: 'https://images.unsplash.com/photo-1545324418-cc1a3fa10c00?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
@@ -27,19 +15,32 @@ const projects = [
     equipment: ['Betoneiras', 'Retroescavadeiras', 'Compactadores'],
   },
   {
+    id: 2,
+    title: 'Edifício Comercial',
+    description: 'Edifício com 03 andares, elevador, estacionamento para 04 carros, piso em ardósia e 863m² de área útil.',
+    imageUrl: 'https://www.praticisimoveis.com.br/fotos_imoveis/4274/999-154022-2.jpeg',
+    testimonial: {
+      name: 'Carlos Silva',
+      role: 'Diretor Executivo',
+      content: 'A Nova Era superou todas as nossas expectativas. Entrega pontual e qualidade excepcional.',
+    },
+    equipment: ['Gruas Torre', 'Escavadeiras', 'Guindastes'],
+  },
+  {
     id: 3,
-    title: 'Centro Logístico Industrial',
-    description: 'Complexo industrial com 85.000m² de área construída',
-    imageUrl: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
-    equipment: ['Empilhadeiras', 'Tratores', 'Caminhões'],
+    title: 'Brascan Open Mall',
+    description: 'Centro multiuso com escritórios e hotel, conhecido pelas opções gastronômicas e bancos em um pátio arborizado.',
+    imageUrl: 'https://lh3.googleusercontent.com/p/AF1QipO3R__1sVF9Ge5Y-FMLlEL6DkMsTctqcuO-Mf5w=s680-w680-h510',
+    equipment: ['Guindastes', 'Plataformas Elevatórias', 'Escavadeiras'],
   },
   {
     id: 4,
-    title: 'Shopping Center Plaza',
-    description: 'Centro comercial com 45.000m² de área construída',
-    imageUrl: 'https://images.unsplash.com/photo-1557444562-0b3a71fc1c7f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
-    equipment: ['Guindastes', 'Plataformas Elevatórias', 'Escavadeiras'],
+    title: 'Centro Logístico Industrial',
+    description: 'Complexo industrial com 15.000m² de área construída',
+    imageUrl: 'https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80',
+    equipment: ['Empilhadeiras', 'Tratores', 'Caminhões'],
   },
+
 ];
 
 export const Projects = () => {
